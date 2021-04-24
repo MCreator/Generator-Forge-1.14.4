@@ -33,7 +33,7 @@ ${settings.getDescription()}
 [[dependencies.${settings.getModID()}]]
     modId="forge"
     mandatory=true
-    versionRange="[${generator.getGeneratorBuildFileVersion()}]"
+    versionRange="[${generator.getFullGeneratorVersion()}]"
     ordering="NONE"
     side="BOTH"
 </#if>
